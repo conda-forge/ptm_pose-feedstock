@@ -1,5 +1,5 @@
 {% set name = "ptm_pose" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ptm_pose-{{ version }}.tar.gz
-  sha256: d5caeeabf72017845d21ff666672aa48ddea0b225a0ecd528c8a219d69db2247
+  sha256: 15df86118e85bd7231595f6420071ab4fb47ad38912654264cb698b7d4fc3ce2
 
 build:
   noarch: python
